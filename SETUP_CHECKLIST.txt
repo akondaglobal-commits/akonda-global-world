@@ -1,0 +1,14 @@
+AKONDO GLOBAL WORLD — FINAL SETUP CHECKLIST
+
+[ ] Upload the project to a GitHub repository or deploy using Vercel CLI.
+[ ] Create a Resend account.
+[ ] Verify a sender domain in Resend.
+[ ] Add OWNER_EMAIL=akondaglobal@gmail.com in Vercel.
+[ ] Add SITE_URL=https://YOUR-PROJECT.vercel.app in Vercel.
+[ ] Add RESEND_API_KEY from Resend in Vercel.
+[ ] Add RESEND_FROM using the verified sender in Vercel.
+[ ] Add APPROVAL_SECRET using a long random secret (32+ characters) in Vercel.
+[ ] Redeploy the project.
+[ ] Test enquiry email, approve link, decline link, upload link, and email attachments using dummy details/files.
+
+Do not use real customer passport files until all tests succeed. API credentials cannot be supplied in this ZIP and must be added privately in Vercel settings.
